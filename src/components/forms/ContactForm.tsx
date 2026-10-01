@@ -25,7 +25,7 @@ const services = [
   'SEO',
   'Web Development & Management',
   'Brand Development & Management',
-  'Market Activation',
+  'General Marketing',
   'Media Advisory',
   'Multiple Services',
   'General Enquiry',

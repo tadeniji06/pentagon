@@ -7,7 +7,7 @@ const marqueeItems = [
   'SEO',
   'Web Development',
   'Brand Strategy',
-  'Market Activation',
+  'General Marketing',
   'Media Advisory',
   'Consumer Engagement',
   'Digital Experience',

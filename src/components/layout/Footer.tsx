@@ -7,7 +7,7 @@ const serviceLinks = [
   { href: '/services/seo', label: 'SEO' },
   { href: '/services/web-development', label: 'Web Development' },
   { href: '/services/brand-development', label: 'Brand Development' },
-  { href: '/services/market-activation', label: 'Market Activation' },
+  { href: '/services/general-marketing', label: 'General Marketing' },
   { href: '/services/media-advisory', label: 'Media Advisory' },
 ];
 

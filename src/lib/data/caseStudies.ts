@@ -48,7 +48,7 @@ export const caseStudies: CaseStudy[] = [
     slug: "apex-beverage-market-activation",
     client: "Apex Beverages",
     industry: "Food & Beverage",
-    services: ["Market Activation", "Brand Development"],
+    services: ["General Marketing", "Brand Development"],
     headline: "Taking a New Energy Drink from Shelf to Street",
     subheadline:
       "A high-impact market activation campaign designed to create direct consumer connection and measurable brand visibility.",
@@ -65,7 +65,7 @@ export const caseStudies: CaseStudy[] = [
     accentColor: "#0B1F3A",
     isPlaceholder: false,
     year: "2024",
-    tags: ["Market Activation", "FMCG", "Consumer Engagement"],
+    tags: ["General Marketing", "FMCG", "Consumer Engagement"],
   },
   {
     id: "case-003",

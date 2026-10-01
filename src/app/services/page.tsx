@@ -9,7 +9,7 @@ import CTASection from '@/components/home/CTASection';
 export const metadata: Metadata = {
   title: 'Services',
   description:
-    'SEO, Web Development, Brand Development, Market Activation, and Media Advisory — five integrated disciplines, one strategic partner.',
+    'SEO, Web Development, Brand Development, General Marketing, and Media Advisory — five integrated disciplines, one strategic partner.',
   alternates: { canonical: 'https://www.pentagoncreedintegrations.com/services' },
 };
 

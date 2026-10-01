@@ -13,20 +13,18 @@ const activationSteps = [
 ];
 
 const capabilities = [
-  'Experiential Marketing',
-  'Field Marketing & Sampling',
-  'Retail Activation',
-  'Event Management',
-  'Brand Visibility',
-  'Campaign Execution',
-  'Activation Reporting',
+  'Digital Marketing',
+  'Traditional Marketing',
+  'Product Marketing (Market Activation)',
+  'Email Marketing',
+  'Influencer Marketing',
 ];
 
-export default function MarketActivationFeature() {
+export default function GeneralMarketingFeature() {
   return (
     <section
       className="bg-white section-padding"
-      id="market-activation"
+      id="general-marketing"
       aria-labelledby="activation-heading"
     >
       <div className="container-wide">
@@ -35,7 +33,7 @@ export default function MarketActivationFeature() {
 
           {/* Left — process chain */}
           <ScrollReveal>
-            <SectionLabel number="05">Market Activation</SectionLabel>
+            <SectionLabel number="05">General Marketing</SectionLabel>
 
             <h2
               id="activation-heading"
@@ -83,7 +81,7 @@ export default function MarketActivationFeature() {
           {/* Right — editorial copy */}
           <ScrollReveal delay={0.2} className="flex flex-col justify-center">
             <p className="text-xl text-[#344054] leading-relaxed mb-8">
-              Market activation is where strategy proves itself. It's the difference between a
+              General marketing is where strategy proves itself. It's the difference between a
               brand that people know and a brand that people choose.
             </p>
             <p className="text-base text-[#98A2B3] leading-relaxed mb-10">
@@ -114,10 +112,10 @@ export default function MarketActivationFeature() {
                 fast, land precisely, and generate the data that improves the next one."
               </p>
               <Link
-                href="/services/market-activation"
+                href="/services/general-marketing"
                 className="inline-flex items-center gap-2 text-sm font-semibold text-[#C9A84C] group"
               >
-                Explore Market Activation
+                Explore General Marketing
                 <ArrowRight className="h-4 w-4 transition-transform duration-250 group-hover:translate-x-1" />
               </Link>
             </div>

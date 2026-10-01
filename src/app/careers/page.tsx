@@ -40,7 +40,7 @@ const careerAreas = [
   { area: 'SEO', description: 'Technical and content-led search strategy' },
   { area: 'Web Development', description: 'Modern frontend and full-stack engineering' },
   { area: 'Brand Strategy', description: 'Strategic positioning and identity' },
-  { area: 'Market Activation', description: 'Consumer engagement and field marketing' },
+  { area: 'General Marketing', description: 'Consumer engagement and field marketing' },
   { area: 'Media', description: 'Communications, PR, and advisory' },
   { area: 'Client Strategy', description: 'Business development and account leadership' },
 ];

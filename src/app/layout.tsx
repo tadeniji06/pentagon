@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: "Pentagon Creed Integrations",
     title: "Pentagon Creed Integrations — Strategy. Creativity. Integration.",
     description:
-      "Multidisciplinary business solutions: SEO, Web Development, Brand Development, Market Activation, and Media Advisory.",
+      "Multidisciplinary business solutions: SEO, Web Development, Brand Development, General Marketing, and Media Advisory.",
     images: [
       {
         url: "/og-image.jpg",

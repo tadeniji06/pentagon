@@ -4,7 +4,7 @@ import MarqueeBar from '@/components/home/MarqueeBar';
 import ServicesSection from '@/components/home/ServicesSection';
 import DifferenceSection from '@/components/home/DifferenceSection';
 import FeaturedWork from '@/components/home/FeaturedWork';
-import MarketActivationFeature from '@/components/home/MarketActivationFeature';
+import GeneralMarketingFeature from '@/components/home/GeneralMarketingFeature';
 import InsightsSection from '@/components/home/InsightsSection';
 import TestimonialsSection from '@/components/home/TestimonialsSection';
 import CTASection from '@/components/home/CTASection';
@@ -36,8 +36,8 @@ export default function HomePage() {
       {/* §05 Featured Work */}
       <FeaturedWork />
 
-      {/* §06 Market Activation */}
-      <MarketActivationFeature />
+      {/* §06 General Marketing */}
+      <GeneralMarketingFeature />
 
       {/* §07 Insights */}
       <InsightsSection />

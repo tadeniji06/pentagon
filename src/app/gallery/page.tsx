@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://www.pentagoncreedintegrations.com/gallery' },
 };
 
-const categories = ['All', 'Campaigns', 'Events', 'Brand Work', 'Market Activation', 'Digital Projects', 'Behind the Scenes'];
+const categories = ['All', 'Campaigns', 'Events', 'Brand Work', 'General Marketing', 'Digital Projects', 'Behind the Scenes'];
 
 export default function GalleryPage() {
   return (

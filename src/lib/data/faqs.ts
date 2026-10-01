@@ -13,7 +13,7 @@ export type FAQCategory =
   | "SEO"
   | "Web Development"
   | "Brand"
-  | "Market Activation"
+  | "General Marketing"
   | "Media Advisory";
 
 export const faqCategories: FAQCategory[] = [
@@ -24,7 +24,7 @@ export const faqCategories: FAQCategory[] = [
   "SEO",
   "Web Development",
   "Brand",
-  "Market Activation",
+  "General Marketing",
   "Media Advisory",
 ];
 
@@ -141,13 +141,13 @@ export const faqs: FAQ[] = [
       "A logo is one element of a brand identity, which is itself one component of a full brand. A brand also includes your positioning, personality, messaging, how you behave, and the experience you create. Many organisations with strong logos have underdeveloped brands.",
     category: "Brand",
   },
-  // Market Activation
+  // General Marketing
   {
     id: "ma-01",
     question: "What metrics do you use to measure activation success?",
     answer:
       "We track reach (number of consumers engaged), depth of engagement, product trial rates, conversion at point of contact, and attitudinal shifts where measurable. We provide a structured post-activation report with all key metrics and strategic recommendations.",
-    category: "Market Activation",
+    category: "General Marketing",
   },
   // Media Advisory
   {

@@ -17,7 +17,7 @@ export type InsightCategory =
   | "SEO"
   | "Web & Digital"
   | "Brand"
-  | "Market Activation"
+  | "General Marketing"
   | "Media"
   | "Business Strategy";
 
@@ -25,7 +25,7 @@ export const insightCategories: InsightCategory[] = [
   "SEO",
   "Web & Digital",
   "Brand",
-  "Market Activation",
+  "General Marketing",
   "Media",
   "Business Strategy",
 ];
@@ -82,14 +82,14 @@ export const insights: Insight[] = [
     title: "The Anatomy of a Successful Market Activation Campaign",
     excerpt:
       "Not all activations are created equal. The difference between a forgettable sampling exercise and a campaign that moves units and builds loyalty is almost entirely strategic.",
-    category: "Market Activation",
+    category: "General Marketing",
     author: "Pentagon Creed Integrations",
     publishedAt: "2025-06-30",
     readingTimeMinutes: 8,
     coverImage: "/images/insights/market-activation.jpg",
     body: "This is a generic placeholder body for the insight article. In a real scenario, this would contain the full thought leadership piece, exploring the nuances of the topic in depth, providing actionable advice, and demonstrating the firm's expertise in this specific domain. The content would be structured with clear headings, bullet points, and potentially data visualizations to ensure it is engaging and informative for the reader. We believe that true insight comes from a combination of deep industry experience, rigorous research, and a willingness to challenge conventional wisdom. This space will eventually hold that level of analysis.",
     isPlaceholder: false,
-    tags: ["Market Activation", "Campaign", "Strategy"],
+    tags: ["General Marketing", "Campaign", "Strategy"],
   },
   {
     id: "ins-005",
