@@ -1,0 +1,18 @@
+<svg
+  width="32"
+  height="32"
+  viewBox="0 0 32 32"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M16 2L29.4 11.8L24.5 27.5H7.5L2.6 11.8L16 2Z"
+    stroke="#C9A84C"
+    strokeWidth="2"
+    fill="none"
+  />
+  <path
+    d="M16 7L23.9 13.1L21 21.5H11L8.1 13.1L16 7Z"
+    fill="#C9A84C"
+  />
+</svg>
