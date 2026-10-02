@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { Mail, Phone, MapPin } from 'lucide-react';
 
 const serviceLinks = [
@@ -38,7 +39,13 @@ export default function Footer() {
           {/* Brand column */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-3 mb-6 group" aria-label="Home">
-              <PentagonMark />
+              <Image
+                src="/logo.png"
+                alt="Pentagon Creed Logo"
+                width={48}
+                height={48}
+                className="opacity-90 transition-opacity duration-300 group-hover:opacity-100 brightness-0 invert"
+              />
               <span className="text-sm font-bold tracking-[0.06em] uppercase text-white">
                 Pentagon Creed
               </span>
@@ -206,30 +213,6 @@ function NewsletterSignup() {
   );
 }
 
-function PentagonMark() {
-  return (
-    <svg
-      width="28"
-      height="28"
-      viewBox="0 0 32 32"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      aria-hidden="true"
-    >
-      <path
-        d="M16 2L29.4 11.8L24.5 27.5H7.5L2.6 11.8L16 2Z"
-        stroke="white"
-        strokeWidth="1.5"
-        fill="none"
-      />
-      <path
-        d="M16 7L23.9 13.1L21 21.5H11L8.1 13.1L16 7Z"
-        fill="white"
-        opacity="0.35"
-      />
-    </svg>
-  );
-}
 
 function IgIcon() {
   return (

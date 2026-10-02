@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 import { X, Menu, ChevronDown } from 'lucide-react';
@@ -94,10 +95,14 @@ export default function Navbar() {
             className="flex items-center gap-3 group"
             aria-label="Pentagon Creed Integrations — Home"
           >
-            <PentagonMark
+            <Image
+              src="/logo.png"
+              alt="Pentagon Creed Logo"
+              width={48}
+              height={48}
               className={cn(
-                'transition-colors duration-500',
-                solidNav ? 'text-[#0B1F3A]' : 'text-white'
+                'transition-all duration-500',
+                solidNav ? 'opacity-100' : 'opacity-90 brightness-0 invert'
               )}
             />
             <span
